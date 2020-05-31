@@ -1,0 +1,1 @@
+export   const SET_SETTINGS_DATA = 'APP/SET_SETTINGS_DATA';
