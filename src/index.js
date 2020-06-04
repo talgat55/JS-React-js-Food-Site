@@ -4,6 +4,7 @@ import {Provider} from 'react-redux';
 import {compose, createStore} from "redux";
 import {rootReducer} from './redux/rootReducer';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -13,6 +14,7 @@ const store = createStore(
     compose(
         window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     )
+
 );
 
 ReactDOM.render(
