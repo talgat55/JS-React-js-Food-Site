@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f6b879-d6ed-4adf-98c8-c0a70abb9913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Products.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +43,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,6 +64,11 @@
       <workItem from="1590516814742" duration="6083000" />
       <workItem from="1591210255163" duration="65000" />
       <workItem from="1591211828977" duration="4684000" />
+      <workItem from="1591728440824" duration="1647000" />
+      <workItem from="1591730123062" duration="2620000" />
+      <workItem from="1592158699602" duration="1077000" />
+      <workItem from="1592249382255" duration="3042000" />
+      <workItem from="1592330706871" duration="3012000" />
     </task>
     <servers />
   </component>
@@ -72,5 +80,9 @@
       <screen x="67" y="27" width="1853" height="947" />
     </state>
     <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.947@67.27.1853.947" timestamp="1591210317934" />
+    <state x="482" y="134" key="SettingsEditor" timestamp="1591730090821">
+      <screen x="67" y="27" width="1853" height="947" />
+    </state>
+    <state x="482" y="134" key="SettingsEditor/67.27.1853.947@67.27.1853.947" timestamp="1591730090821" />
   </component>
 </project>
