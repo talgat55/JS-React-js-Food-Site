@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f6b879-d6ed-4adf-98c8-c0a70abb9913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/prod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Products.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +63,7 @@
       <workItem from="1592158699602" duration="1077000" />
       <workItem from="1592249382255" duration="3042000" />
       <workItem from="1592330706871" duration="3012000" />
+      <workItem from="1592418214135" duration="2844000" />
     </task>
     <servers />
   </component>
