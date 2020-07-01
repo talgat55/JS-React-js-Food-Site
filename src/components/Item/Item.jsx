@@ -2,7 +2,7 @@ import React from 'react';
 import NoImage from '../../static/noimage.png';
 import basketImg from '../../static/bug.svg';
 import styled  from 'styled-components';
-const Item = ({name, price}) => {
+const Item = ({name, price, id,addToCart}) => {
 
     return (
         <ItemComponent className="product-item">
@@ -21,7 +21,12 @@ const Item = ({name, price}) => {
                         <div className="product-item__price">
                             $ {price}
                         </div>
-                        <a href="#" className="add-to-cart">
+                        <a
+                            href="#"
+                            className="add-to-cart"
+                            onClick={ (e)=> addToCart(e,id)}
+
+                        >
                             <img
                                 src={basketImg}
                                 alt="Icon"

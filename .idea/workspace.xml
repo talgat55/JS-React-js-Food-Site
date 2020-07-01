@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f6b879-d6ed-4adf-98c8-c0a70abb9913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cartReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +47,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS-React-js-Redux-Saga-Pr-Exp" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +80,10 @@
       <workItem from="1592249382255" duration="3042000" />
       <workItem from="1592330706871" duration="3012000" />
       <workItem from="1592418214135" duration="2844000" />
+      <workItem from="1592514541089" duration="48000" />
+      <workItem from="1592677583340" duration="2738000" />
+      <workItem from="1592983368486" duration="612000" />
+      <workItem from="1593624883872" duration="7361000" />
     </task>
     <servers />
   </component>
@@ -71,13 +91,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591210317934">
+    <state x="588" y="161" width="800" height="677" key="#ESLint" timestamp="1593627508247">
       <screen x="67" y="27" width="1853" height="947" />
     </state>
-    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.947@67.27.1853.947" timestamp="1591210317934" />
-    <state x="482" y="134" key="SettingsEditor" timestamp="1591730090821">
+    <state x="588" y="161" width="800" height="677" key="#ESLint/67.27.1853.947@67.27.1853.947" timestamp="1593627508247" />
+    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593631337306">
       <screen x="67" y="27" width="1853" height="947" />
     </state>
-    <state x="482" y="134" key="SettingsEditor/67.27.1853.947@67.27.1853.947" timestamp="1591730090821" />
+    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.947@67.27.1853.947" timestamp="1593631337306" />
+    <state x="482" y="134" key="SettingsEditor" timestamp="1593627566261">
+      <screen x="67" y="27" width="1853" height="947" />
+    </state>
+    <state x="482" y="134" key="SettingsEditor/67.27.1853.947@67.27.1853.947" timestamp="1593627566261" />
   </component>
 </project>
