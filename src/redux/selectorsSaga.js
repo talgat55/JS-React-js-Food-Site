@@ -1,0 +1,1 @@
+export const getCartCount = state => state.cartReducer.count;
