@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {connect} from "react-redux";
 import LogoImg from '../../static/logo.jpg';
 import basketImg from '../../static/bug.svg';
 import styled  from 'styled-components';
-const Header = () => {
+const Header = (props) => {
     return (
         <HeaderComponent>
             <div className="container">
@@ -19,7 +20,7 @@ const Header = () => {
                     <div className="col-lg-4   d-flex justify-content-end  align-items-center">
                         <Link  className="basket" to="/basket/">
                             <img className="cart-icon" src={basketImg} alt="Иконка"/>
-                            <span className="count">0</span>
+                            <span className="count">{props.cartCount}</span>
                         </Link>
                     </div>
                 </div>
@@ -49,4 +50,13 @@ const HeaderComponent = styled.header`
     }
 `;
 
-export default Header;
+const mapStateToProps =  state => {
+    return {
+        cartCount: state.cartReducer.count
+    }
+};
+export default connect(
+    mapStateToProps
+    ,
+    null
+)(Header);
