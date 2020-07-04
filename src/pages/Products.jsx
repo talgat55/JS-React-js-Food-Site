@@ -1,16 +1,14 @@
-import React,{useState, useEffect} from 'react';
+import React,{ useEffect} from 'react';
 import {connect} from "react-redux";
 import styled  from 'styled-components';
 import Item from "../components/Item/Item";
-import {getProducts} from "../api/products";
-import {addToCartAction} from "../redux/actions";
-const Products = ({addToCartAction}) => {
-    const [data, setData] = useState([]);
+import {addToCartAction, requestGetProducts} from "../redux/actions";
+const Products = ({addToCartAction,requestGetProducts,products}) => {
+
 
 
     useEffect(()=>{
-        getProducts().then( res =>  setData(res.data));
-
+        requestGetProducts();
     },[]);
 
     /*
@@ -26,7 +24,7 @@ const Products = ({addToCartAction}) => {
         <ProductComponent>
             <div className="container">
                 <ul>
-                    {data.map((item, index) => (
+                    { products && products.map((item, index) => (
                         <Item
                             key={index}
                             id={item.id}
@@ -62,11 +60,17 @@ const ProductComponent = styled.section`
        
     
 `;
+const mapStateToProps = state =>{
+    return {
+        products: state.products
+    }
+}
 const mapDispatchToProps = {
-    addToCartAction
+    addToCartAction,
+    requestGetProducts
 };
 export default connect(
-    null
+    mapStateToProps
     ,
     mapDispatchToProps
 )(Products);
