@@ -7,7 +7,7 @@ import {
     INCREMENT_COUNT_CART,
     REQUEST_PRODUCTS_DATA_SAGA, SET_PRODUCTS_DATA
 } from "./types";
-import {getCartCount} from "./selectorsSaga";
+import {getCartCount,getProductsSelector} from "./selectorsSaga";
 import {getProducts} from "../api/products";
 
 export function* sagaWatcher() {
@@ -17,11 +17,14 @@ export function* sagaWatcher() {
 };
 
 
-function* addToCart(action){
-    try{
+function* addToCart(action) {
+    try {
 
-        yield put({type: ADD_TO_CART, payload: action.payload});
-        yield put({type: INCREMENT_COUNT_CART });
+        const allProducts = yield select(getProductsSelector);
+        let objectCart = allProducts.filter(item => item.id === action.payload  );
+
+        yield put({type: ADD_TO_CART, payload: objectCart['0']});
+        yield put({type: INCREMENT_COUNT_CART});
 
     } catch (e) {
         console.log(e);
@@ -29,12 +32,12 @@ function* addToCart(action){
 }
 
 
-function* decrementCartCount(){
+function* decrementCartCount() {
 
-    try{
+    try {
         const cartCount = yield select(getCartCount);
-        if(cartCount > 0){
-            yield put({type: DECREMENT_COUNT_CART });
+        if (cartCount > 0) {
+            yield put({type: DECREMENT_COUNT_CART});
         }
 
     } catch (e) {
@@ -43,14 +46,15 @@ function* decrementCartCount(){
 }
 
 
-function* requestGetProducts(){
+function* requestGetProducts() {
 
-    try{
+    try {
 
         let dataProducts = yield  getProducts();
         yield put({
             type: SET_PRODUCTS_DATA,
-            payload: dataProducts.data });
+            payload: dataProducts.data
+        });
     } catch (e) {
         console.log(e);
     }
