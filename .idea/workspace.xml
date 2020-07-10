@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f6b879-d6ed-4adf-98c8-c0a70abb9913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cartReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cartReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/saga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/selectorsSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/selectorsSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +83,8 @@
       <workItem from="1592677583340" duration="2738000" />
       <workItem from="1592983368486" duration="612000" />
       <workItem from="1593624883872" duration="11115000" />
-      <workItem from="1593746475065" duration="9768000" />
+      <workItem from="1593746475065" duration="11629000" />
+      <workItem from="1594407005379" duration="7160000" />
     </task>
     <servers />
   </component>
@@ -92,10 +100,10 @@
       <screen x="67" y="27" width="1853" height="947" />
     </state>
     <state x="676" y="291" width="625" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.947@67.27.1853.947" timestamp="1593719609991" />
-    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593631337306">
+    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594095027173">
       <screen x="67" y="27" width="1853" height="947" />
     </state>
-    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.947@67.27.1853.947" timestamp="1593631337306" />
+    <state x="776" y="257" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.947@67.27.1853.947" timestamp="1594095027173" />
     <state x="482" y="134" key="SettingsEditor" timestamp="1593627566261">
       <screen x="67" y="27" width="1853" height="947" />
     </state>

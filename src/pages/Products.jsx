@@ -9,7 +9,7 @@ const Products = ({addToCartAction,requestGetProducts,products}) => {
 
     useEffect(()=>{
         requestGetProducts();
-    },[]);
+    },[requestGetProducts]);
 
     /*
     *  Add to cart
@@ -64,7 +64,7 @@ const mapStateToProps = state =>{
     return {
         products: state.products
     }
-}
+};
 const mapDispatchToProps = {
     addToCartAction,
     requestGetProducts
